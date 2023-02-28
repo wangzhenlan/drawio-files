@@ -1,1 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-02-25T12:35:05.186Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="20.8.20" etag="-0Ir9ykz9mAXto-b6bfn" type="github"><diagram name="第 1 页" id="58aClFS98Xx4EW1kaQdl">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-28T11:56:27.606Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="m6EG6BFv6HhjUqbEKOVE" version="20.8.20" type="github">
+  <diagram name="第 1 页" id="58aClFS98Xx4EW1kaQdl">
+    <mxGraphModel dx="1026" dy="1830" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AS1xTHW73xuxdU7PhMb--1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;res = recur(1, null)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="370" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--2" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="40" as="sourcePoint" />
+            <mxPoint x="80" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="440" />
+              <mxPoint x="80" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;res = recur(2, 1)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;res = recur(3, 2)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="200" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;res = recur(null, 3)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--6" value="返回 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="270" y="120" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--7" value="cur.next = 2&lt;br&gt;返回 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="200" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--8" value="&lt;pre style=&quot;background-color:#282c34;color:#bbbbbb;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:11.3pt;&quot;&gt;private &lt;span style=&quot;color:#e5c07b;&quot;&gt;ListNode &lt;/span&gt;&lt;span style=&quot;color:#61afef;&quot;&gt;recur&lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;ListNode &lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;cur&lt;/span&gt;, &lt;span style=&quot;color:#e5c07b;&quot;&gt;ListNode &lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;pre&lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color:#54a857;&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#54a857;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#54a857;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#d55fde;font-style:italic;&quot;&gt;if &lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;cur &lt;/span&gt;== &lt;span style=&quot;color:#d55fde;font-style:italic;&quot;&gt;null&lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;) &lt;/span&gt;&lt;span style=&quot;color:#359ff4;&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#359ff4;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;// 终止条件&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;        &lt;/span&gt;&lt;span style=&quot;color:#d55fde;font-style:italic;&quot;&gt;return &lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;pre&lt;/span&gt;;&lt;br&gt;    &lt;span style=&quot;color:#359ff4;&quot;&gt;}&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#359ff4;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#359ff4;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;// 递归后继节点&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#e5c07b;&quot;&gt;ListNode &lt;/span&gt;res = &lt;span style=&quot;color:#61afef;&quot;&gt;recur&lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;cur&lt;/span&gt;.&lt;span style=&quot;color:#ef596f;&quot;&gt;next&lt;/span&gt;, &lt;span style=&quot;color:#d19a66;&quot;&gt;cur&lt;/span&gt;&lt;span style=&quot;color:#e8ba36;&quot;&gt;)&lt;/span&gt;;&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;// 修改节点引用指向&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;cur&lt;/span&gt;.&lt;span style=&quot;color:#ef596f;&quot;&gt;next &lt;/span&gt;= &lt;span style=&quot;color:#d19a66;&quot;&gt;pre&lt;/span&gt;;&lt;br&gt;&lt;br&gt;    &lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;// 返回反转链表的头节点&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#5c6370;font-style:italic;&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;color:#d55fde;font-style:italic;&quot;&gt;return &lt;/span&gt;res;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(84, 168, 87); font-size: 11.3pt; white-space: nowrap;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-30" width="490" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--9" value="cur.next = 1&lt;br&gt;返回 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AS1xTHW73xuxdU7PhMb--10" value="cur.next = null&lt;br&gt;返回 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="245" y="370" width="120" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
