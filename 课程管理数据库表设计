@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T00:52:37.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" version="21.0.8" etag="QJnmTRKIYYZ8mkOY20cS" type="github"><diagram name="第 1 页" id="97tDAnPYJcA7M06n6EsE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-27T00:56:57.498Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Jc26p6kbjuDKvH0N304i" version="21.0.8" type="github">
+  <diagram name="第 1 页" id="97tDAnPYJcA7M06n6EsE">
+    <mxGraphModel dx="1434" dy="764" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7a0qPMt6jiPHXNamUBKM-13" value="课程学生关联表&lt;br&gt;course_student_rel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=16;html=1;" vertex="1" parent="1">
+          <mxGeometry x="174" y="129" width="203" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="7a0qPMt6jiPHXNamUBKM-14" value="Item 1" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="7a0qPMt6jiPHXNamUBKM-13">
+          <mxGeometry y="26" width="203" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7a0qPMt6jiPHXNamUBKM-15" value="Item 2" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="7a0qPMt6jiPHXNamUBKM-13">
+          <mxGeometry y="56" width="203" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7a0qPMt6jiPHXNamUBKM-16" value="Item 3" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="7a0qPMt6jiPHXNamUBKM-13">
+          <mxGeometry y="86" width="203" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
