@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T06:55:55.524Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="T5WmwO2aKBhcehTaikt2" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-27T07:14:06.316Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="DT1uZ1HxMr1cs7xuQh_T" version="21.0.8" type="github">
   <diagram name="第 1 页" id="97tDAnPYJcA7M06n6EsE">
     <mxGraphModel dx="1195" dy="637" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -139,7 +139,7 @@
         <mxCell id="rFuGieuSvSSyrK6IuoWS-52" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;id&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rFuGieuSvSSyrK6IuoWS-51">
           <mxGeometry y="72" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rFuGieuSvSSyrK6IuoWS-53" value="group_id 分组" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rFuGieuSvSSyrK6IuoWS-51">
+        <mxCell id="rFuGieuSvSSyrK6IuoWS-53" value="course_id 课程 id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rFuGieuSvSSyrK6IuoWS-51">
           <mxGeometry y="102" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rFuGieuSvSSyrK6IuoWS-54" value="group_name 分组名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="rFuGieuSvSSyrK6IuoWS-51">
