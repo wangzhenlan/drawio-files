@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T06:24:50.992Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FzcvAV6lyHbgPD6Xxr41" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:25:59.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="bGZZ9YGPlgt-QUZ8nG7r" version="21.3.7" type="github">
   <diagram name="第 1 页" id="k1q9DpE-isMBgyAAqlI9">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="wxieoRivzR5WsgRl4trM-23" value="+ class_no: varchar 班级编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-21">
           <mxGeometry y="78" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wxieoRivzR5WsgRl4trM-24" value="+ project_no: varchar 实训项目编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-21">
+        <mxCell id="wxieoRivzR5WsgRl4trM-24" value="+ project_code: varchar 实训项目编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-21">
           <mxGeometry y="104" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-30" value="+ train_no: varchar 实训记录编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-21">
@@ -129,7 +129,7 @@
         <mxCell id="wxieoRivzR5WsgRl4trM-52" value="+ is_right: int 步骤是否正确（0-错误，1-正确）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-35">
           <mxGeometry y="208" width="620" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wxieoRivzR5WsgRl4trM-53" value="+ step_image: varchar 错误步骤图片" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-35">
+        <mxCell id="wxieoRivzR5WsgRl4trM-53" value="+ step_img: varchar 错误步骤图片" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-35">
           <mxGeometry y="234" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-47" value="+&amp;nbsp;create_time: datetime 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-35">
