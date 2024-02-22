@@ -1,63 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T06:38:20.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mGLpvGnukdgRZDbuNt-1" version="21.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:52:35.829Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ez88BfRnz2aRbm3pvRAZ" version="21.3.7" type="github">
   <diagram name="第 1 页" id="k1q9DpE-isMBgyAAqlI9">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="wxieoRivzR5WsgRl4trM-5" value="t_train_project 实训项目表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="80" y="100" width="360" height="208" as="geometry">
+          <mxGeometry x="90" y="60" width="770" height="234" as="geometry">
             <mxRectangle x="80" y="100" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-6" value="+ id: bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="26" width="360" height="26" as="geometry" />
+          <mxGeometry y="26" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-7" value="+ project_code: varchar 实训项目编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="52" width="360" height="26" as="geometry" />
+          <mxGeometry y="52" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-8" value="+ project_name: varchar 实训项目名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="78" width="360" height="26" as="geometry" />
+          <mxGeometry y="78" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-9" value="+ cover_img: varchar 实训项目背景图片" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="104" width="360" height="26" as="geometry" />
+          <mxGeometry y="104" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-10" value="+ app_name: varchar 应用程序名称" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="130" width="360" height="26" as="geometry" />
+          <mxGeometry y="130" width="770" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wxieoRivzR5WsgRl4trM-54" value="+ project_type: int 实训项目类型（0-综合项目（包括考核和练习），1-考核类型，2-练习类型）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
+          <mxGeometry y="156" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-11" value="+&amp;nbsp;remark: varchar 备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="156" width="360" height="26" as="geometry" />
+          <mxGeometry y="182" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-12" value="+&amp;nbsp;create_time: datetime 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-5">
-          <mxGeometry y="182" width="360" height="26" as="geometry" />
+          <mxGeometry y="208" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-13" value="t_train_project_detail 实训项目详情表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="550" y="100" width="360" height="208" as="geometry">
+          <mxGeometry x="90" y="320" width="770" height="208" as="geometry">
             <mxRectangle x="80" y="100" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-14" value="+ id: bigint" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="26" width="360" height="26" as="geometry" />
+          <mxGeometry y="26" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-15" value="+ project_code: varchar 实训项目编号" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="52" width="360" height="26" as="geometry" />
+          <mxGeometry y="52" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-16" value="+ project_duration: int 实训项目时长" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="78" width="360" height="26" as="geometry" />
+          <mxGeometry y="78" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-17" value="+ recommend_duration: int 推荐完成时长" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="104" width="360" height="26" as="geometry" />
+          <mxGeometry y="104" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-18" value="+ project_score: int 项目总分值" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="130" width="360" height="26" as="geometry" />
+          <mxGeometry y="130" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-19" value="+&amp;nbsp;remark: varchar 备注" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="156" width="360" height="26" as="geometry" />
+          <mxGeometry y="156" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-20" value="+&amp;nbsp;create_time: datetime 创建时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="wxieoRivzR5WsgRl4trM-13">
-          <mxGeometry y="182" width="360" height="26" as="geometry" />
+          <mxGeometry y="182" width="770" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-21" value="t_train_record 实训记录表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="80" y="340" width="620" height="364" as="geometry">
+          <mxGeometry x="90" y="710" width="620" height="364" as="geometry">
             <mxRectangle x="80" y="100" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -101,7 +104,7 @@
           <mxGeometry y="338" width="620" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wxieoRivzR5WsgRl4trM-35" value="t_train_record_detail 实训记录详情表" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="80" y="730" width="620" height="312" as="geometry">
+          <mxGeometry x="90" y="1130" width="620" height="312" as="geometry">
             <mxRectangle x="80" y="100" width="100" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
